@@ -4,5 +4,11 @@ h1 {
 }
 
 p {
-    color: purple;
+    color: green;
+}
+
+ 
+.title {
+    background-color: green ;
+    padding: 50px;
 }
