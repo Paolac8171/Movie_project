@@ -16,7 +16,10 @@ p {
 }
 .asia {
     position: fixed;
+     position: fixed;
+    margin-left: 00px;
 }
+
 
 .india {
     position: fixed;
