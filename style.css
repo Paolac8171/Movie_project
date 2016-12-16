@@ -14,5 +14,13 @@ p {
     padding: 50px;
     border: 5px solid green;
 }
+.asia {
+    position: fixed;
+}
+
+.india {
+    position: fixed;
+    margin-left: 00px;
+}
 
 
