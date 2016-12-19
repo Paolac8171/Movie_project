@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: darkblue;
+    color: purple;
 }
 
 p {
@@ -9,8 +9,8 @@ p {
     font-family: Times ;
 }
 
-.ever {
-    background-image: url("blackandwhite.png");
+.title {
+    background-image: url("blackandwhite.jpg");
     padding: 50px;
     border: 5px solid green;
 }
