@@ -6,6 +6,7 @@ h1 {
 p {
     color: green;
     text-align: center;
+    font-family: Times ;
 }
 
 .title {
@@ -17,10 +18,8 @@ p {
 #asia {
     position: fixed;
     float: left;
-
 }
 
 #india {
     position: fixed;
-    float: right;
 }
