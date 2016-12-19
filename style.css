@@ -9,8 +9,8 @@ p {
     font-family: Times ;
 }
 
-.title {
-    background-image: ("blackandwhite.png");
+.ever {
+    background-image: url("blackandwhite.png");
     padding: 50px;
     border: 5px solid green;
 }
