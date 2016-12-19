@@ -16,10 +16,11 @@ p {
 }
 
 #asia {
-    position: fixed;
+    position: relative;
     float: left;
 }
 
 #india {
-    position: fixed;
+    position: relative;
+    float: right;
 }
