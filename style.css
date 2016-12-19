@@ -14,13 +14,13 @@ p {
     border: 5px solid green;
 }
 
-.asia {
+#asia {
     position: fixed;
-    position: fixed;
-    margin-left: 00px;
+    float: left;
+
 }
 
-.india {
+#india {
     position: fixed;
-    margin-left: 00px;
+    float: right;
 }
