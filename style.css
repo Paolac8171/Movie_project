@@ -1,29 +1,34 @@
 h1 {
     text-align: center;
-    color: purple;
+    color: green;
+    font-weight: bold;
 }
 
 p {
-<<<<<<< HEAD
     color: blue;
+    font-size: 25px;
+    color: green;
     text-align: center;
-    font-family: Times ; 
+    font-family: cursive; 
 }
 
 #intro {
     color: blue;
     text-align: center;
     font-family: Times ;
-    float:left;
+    float: left;
+    font-family: cursive;
 }
 
 .title {
-    background-image: url("blackandwhite.jpg");
-    padding: 50px;
+    padding: 5px;
     border: 5px solid green;
     /*Credits to Exact Tea for the black and white tile background. The link is http://exactea.com/album/black-and-white-tile.html*/
 }
 
+#body{
+  background-image: url("blackandwhite.jpg");  
+}
 #asia {
     position: relative;
     float: left;
