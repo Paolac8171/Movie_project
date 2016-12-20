@@ -1,29 +1,47 @@
-h1 {
+#body {
+    font-family: Candy Inc;
     text-align: center;
     color: green;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 p {
     color: blue;
+=======
+#tight {
+>>>>>>> dd918f7bc5efa364a2d2e2bdf2574e53174c4555
     font-size: 25px;
     color: green;
     text-align: center;
-    font-family: cursive; 
+    font-family: Nouvelle Vague;
+    font-weight: bold;
 }
 
 #intro {
     color: blue;
     text-align: center;
     font-family: Times ;
+<<<<<<< HEAD
     float: left;
     font-family: cursive;
+=======
+    float:left;
+    font-family: Candy Inc;
+    font-weight: bold;
+    font-size: 25px;
+>>>>>>> dd918f7bc5efa364a2d2e2bdf2574e53174c4555
 }
 
 .title {
     padding: 5px;
     border: 5px solid green;
+<<<<<<< HEAD
     /*Credits to Exact Tea for the black and white tile background. The link is http://exactea.com/album/black-and-white-tile.html*/
+=======
+    font-family: cursive;
+    font-weight: bold;
+>>>>>>> dd918f7bc5efa364a2d2e2bdf2574e53174c4555
 }
 
 #body{
@@ -37,4 +55,35 @@ p {
 #india {
     position: relative;
     float: right;
+}
+
+#limbo {
+ color: red;
+    text-align: center;
+    font-family: Times ;
+    float:left;
+    font-family: Candy Inc;
+    font-weight: bold;
+    font-size: 25px;
+}
+.table {
+    padding: 5px;
+    border: 5px solid red;
+    font-family: cursive;
+    font-weight: bold; 
+}
+
+#child{
+   font-family: Candy Inc;
+    text-align: center;
+    color: red;
+    font-weight: bold; 
+}
+
+#boy{
+   font-size: 25px;
+   color: red;
+    text-align: center;
+    font-family: Nouvelle Vague;
+    font-weight: bold; 
 }
