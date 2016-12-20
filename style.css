@@ -1,12 +1,14 @@
 h1 {
     text-align: center;
-    color: purple;
+    color: green;
+    font-weight: bold;
 }
 
 p {
+    font-size: 25px;
    color: green;
     text-align: center;
-    font-family: Times ; 
+    font-family: cursive; 
 }
 
 #intro {
@@ -14,14 +16,19 @@ p {
     text-align: center;
     font-family: Times ;
     float:left;
+    font-family: cursive;
 }
 
 .title {
-    background-image: url("blackandwhite.jpg");
-    padding: 50px;
+    padding: 5px;
     border: 5px solid green;
+    font-family: cursive;
+    
 }
 
+#body{
+  background-image: url("blackandwhite.jpg");  
+}
 #asia {
     position: relative;
     float: left;
