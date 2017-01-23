@@ -12,6 +12,25 @@ p {
     text-align: center;
     font-family: Lato;
     font-weight: bold;
+    text-shadow:2px 2px 5px white;
+}
+
+div {
+    display: block;
+    transition: height 2s, transform 2s;
+     
+}
+
+div:hover {
+    height:100px;
+    /*rotates the div 360 degrees and then comes back to the original position*/
+    transform:rotate(360deg);
+}
+
+#color{
+ text-shadow: 2px 2px 5px black;
+ text-align: center;
+ color: white;
 }
 
 #intro {
@@ -19,7 +38,6 @@ p {
     text-align: center;
     font-family: Times ;
     float:left;
-    font-family: Candy Inc;
     font-weight: bold;
     font-size: 25px;
 }
@@ -35,16 +53,46 @@ p {
 #body{
   background-image: url("blackandwhite.jpg");  
 }
+
+#green{
+    background: linear-gradient(to bottom right, lightgreen, white);
+}
+
+#utensil {
+    display:block;
+    margin:auto;
+    position: relative;
+   
+}
+
+@keyframes flourish {
+    /*changes background slowly from white to green*/
+    from 0% {background-color: white;} 
+    to 100% {background-color: green;}
+}
+
+
 #asia {
     position: relative;
     float: left;
+    border:5px solid green;
+    padding:15px;
+     /*tranforms the image to a 40 degree tilt*/
+    transform:rotateZ(40deg);
     
 }
+
 
 #india {
     position: relative;
     float: right;
+    border:5px solid green;
+    padding:15px;
+    /*tranforms the image to a 160 degree tilt*/
+    transform:rotateZ(160deg);
 }
+
+
 
 #limbo {
  color: red;
